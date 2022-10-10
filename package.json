@@ -1,0 +1,26 @@
+{
+    "name": "blockchain",
+    "version": "1.0.0",
+    "description": "A Node.js blockchain project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src",
+        "dev": "nodemon src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexcphillips/blockchain.git"
+    },
+    "keywords": [],
+    "author": "Alexander Phillips",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alexcphillips/blockchain/issues"
+    },
+    "homepage": "https://github.com/alexcphillips/blockchain#readme",
+    "dependencies": {
+        "crypto-js": "^4.1.1",
+        "moment": "^2.29.4"
+    }
+}
